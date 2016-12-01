@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	    <meta charset="utf-8">
+	    <title>HAIL MELEE HELL</title>
+        <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+	<header id="main-header"></header>
+	<div class="container-fluid">
+    	<div class="row">
+    	    <br><br><br>
+    	</div>
+    	<div class="row">
+            <div class="col-md-5 ">
+            </div>
+            <div class="col-md-2 ">
+                <!-- Begin # DIV Form -->
+                    <div id="div-forms">
+                        <!-- Begin # Login Form -->
+                        <form id="login-form" action="checkuser.php" method="POST">
+    		                <div class="modal-body">
+    				    		<div id="div-login-msg">
+                                    <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                    <span id="text-login-msg">Type your username and password.</span>
+                                </div>
+    				    		<input id="login_username" class="form-control" type="text" placeholder="Username" name="login_username" required>
+    				    		<input id="login_password" class="form-control" type="password" placeholder="Password" name="login_password" required>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Remember me
+                                    </label>
+                                </div>
+            		    	</div>
+    				        <div class="modal-footer">
+                                <div>
+                                    <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
+                                </div>
+    				    	    <div>
+                                    <a id="login_register_btn" type="button" class="btn btn-link" href="/htmlregister.html">Register</a>
+                                </div>
+    				        </div>
+                        </form>
+                        <!-- End # Login Form -->
+                    </div>
+            </div>
+            <div class="col-md-5 ">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
