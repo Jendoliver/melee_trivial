@@ -15,9 +15,9 @@
         echo "<script type='text/javascript'>
         var yes = confirm('$message');
         if (yes) {
-            window.location = 'htmlregister.html';}
+            window.location = '../../front_end/html/htmlregister.html';}
         else {
-            window.location = 'htmlmain.html';}
+            window.location = '../../front_end/html/htmlmain.html';}
         </script>";
     }
     else
@@ -37,7 +37,7 @@
             $message = "Contraseña y/o usuario incorectos";
             echo "<script type='text/javascript'>
             alert('$message');
-            window.location = 'htmlmain.html';
+            window.location = '../../front_end/html/htmlmain.html';
             </script>";
         }
     }

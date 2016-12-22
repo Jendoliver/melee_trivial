@@ -16,7 +16,7 @@
         $message = "El nombre de usuario ya existe";
         echo "<script type='text/javascript'>
         alert('$message');
-        window.location = 'htmlregister.html';
+        window.location = '../../front_end/html/htmlregister.html';
         </script>";
     }
     else
@@ -27,7 +27,7 @@
             die("Error al introducir los datos");
         else
         {
-            include 'libs/mail_lib.php';
+            require_once '../../libs/mail_lib.php';
             session_start();
             $_SESSION["username"] = $user;
             $_SESSION["password"] = $pass;

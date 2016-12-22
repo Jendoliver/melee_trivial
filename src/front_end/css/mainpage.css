@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 #main-header {
-	background-image: url("IMGs/header2.jpg");
+	background-image: url("../IMGs/header2.jpg");
 	background-size: 30% 100%;
     background-repeat: no-repeat;
     background-position: center; 
